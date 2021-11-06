@@ -11,7 +11,8 @@ class PostController extends Controller
         Post::get();
      }
     public function post(){
-        return view('Post');
+        $posts = Post::all();
+        return view('Post',['posts' => $posts]);
     }
    
 }
