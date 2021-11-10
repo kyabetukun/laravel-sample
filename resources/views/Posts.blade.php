@@ -6,6 +6,10 @@
         <link rel="stylesheet" href="bbs.css">
     </head>
     <body>
-    <?php print htmlspecialchars($posts, ENT_QUOTES, 'UTF-8'); ?>
+        投稿
+    <h1>{{ $posts }}</h1>
+    <br>
+        コメント
+    <p>{{ $comments }}</p>
      </body>
 </html>
