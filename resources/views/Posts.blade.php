@@ -7,9 +7,9 @@
     </head>
     <body>
         投稿
-    <h1>{{ $posts }}</h1>
+    <h1>{{ $post->contents }}</h1>
     <br>
         コメント
-    <p>{{ $comments }}</p>
+    {{ $comment }}
      </body>
 </html>

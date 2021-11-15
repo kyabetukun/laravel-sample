@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Comment extends Model
 {
     use HasFactory;
-    public function post(){
-        return $this->belongsTo(Post::class,'id');
+    public function Post(){
+        return $this->belongsTo(Post::class);
     }
 }
