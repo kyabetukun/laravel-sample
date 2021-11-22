@@ -13,8 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    {{ __('ログインできました!') }}
+                    <a href="posts">内容</a>
                 </div>
             </div>
         </div>
